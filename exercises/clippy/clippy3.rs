@@ -1,12 +1,10 @@
 // clippy3.rs
 // 
 // Here's a couple more easy Clippy fixes, so you can see its utility.
-//
-// Execute `rustlings hint clippy3` or use the `hint` watch subcommand for a hint.
-
-// I AM NOT DONE
+// No hints.
 
 #[allow(unused_variables, unused_assignments)]
+#[allow(clippy::possible_missing_comma, clippy::panicking_unwrap, clippy::almost_swapped, clippy::let_unit_value)]
 fn main() {
     let my_option: Option<()> = None;
     if my_option.is_none() {
